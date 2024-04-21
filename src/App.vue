@@ -57,8 +57,8 @@ export default {
             </div>
 
             <!-- Botones -->
-            <div class="flex space-x-4 top-8 px-80">
-                <button class="bg-amber-500 border border-amber-60 text-white flex items-center gap-2 px-4 py-2">
+            <div class="flex space-x-4 top-5 px-80">
+                <button class="bg-amber-500 border border-amber-60 text-white flex items-center gap-2 px-10 py-2">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
                         <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2" />
                     </svg>
@@ -67,7 +67,7 @@ export default {
             </div>
 
         </div>
-        <div class="absolute px-10 py-3 top-80 bottom-24 left-20 right-20 bg-gray-100 bg-opacity-100 rounded-lg">
+        <div class="absolute px-10 py-6 top-96 bottom-11 left-20 right-20 bg-gray-100 bg-opacity-100 rounded-lg">
             <div class="flex justify-between">
                 <button class="bg-amber-500 order-1">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-controller" viewBox="0 0 16 16">
@@ -136,15 +136,84 @@ export default {
     </div>
 </div>
 
-<div class="bg-gray-100 py-64">
-    <div class="container mx-auto px-4">
+<div class="bg-gray-50 py-20">
+    <div class="container mx-auto px-52">
         <!-- Contenido del div -->
+        <!--Primer sensible design -->
+        <div class="p-10 max-w-4xl bg-gray-200 rounded-xl shadow-lg flex items-center justify-center space-x-4">
+            <div class="md:shrink-0">
+                    <img class="h-48 w-full object-cover md:h-full md:w-48" src="/src/img/glass.jpg" alt="Modern building architecture">
+                </div>
+          <div class="max-w-md bg-white rounded-xl shadow-md overflow-hidden md:max-w-xl">
+            <div class="md:flex">
+                <div class="p-8">
+                    <div class="uppercase tracking-wide text-sm text-emerald-800 font-bold text-left">Ingredients</div>
+                    <p class="mt-2 text-slate-500 text-left text-sm">
+                        Looking to take your team away on a retreat to enjoy awesome food and take in some sunshine? We have a list of places to do just that.
+                    </p>
+                </div>
+            </div>
+        </div>
+        </div>
+        
+        <br>
+        <!--Segundo sensible design -->
+        <div class="p-10 max-w-4xl bg-gray-200 rounded-xl shadow-lg flex items-center justify-center space-x-4">
+            <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-4xl">
+                <div class="md:flex">
+                    <div class="md:shrink-0">
+                        <img class="h-48 w-full object-cover md:h-full md:w-48" src="/src/img/img7.jpg" alt="Modern building architecture">
+                    </div>
+                    <div class="p-8">
+                        <div class="uppercase tracking-wide text-sm text-emerald-800 font-bold text-left">Headline Goes Here</div>
+                        <p class="mt-2 text-slate-500 text-left text-sm">Looking to take your team away on a retreat to enjoy awesome food and take in some sunshine? We have a list of places to do just that.</p>
+                    </div>
+                </div>
+                <div>
+                    <h6 class="text-xl font-bold mb-5 px-5 text-left">My Amazing Headline Goes Here</h6>
+                    <div class="flex items-center">
+                        <div>
+                            <p class="mt-2 text-slate-500 text-left text-sm">
+                                Looking to take your team away on a retreat to enjoy awesome food.
+                                Looking to take your team away on a retreat
+                            </p>
+                        </div>
+                        <div class="flex justify-end">
+                            <button id="third_button" class="mr-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-capsule-pill" viewBox="0 0 16 16">
+                                    <path d="M11.02 5.364a3 3 0 0 0-4.242-4.243L1.121 6.778a3 3 0 1 0 4.243 4.243l5.657-5.657Zm-6.413-.657 2.878-2.879a2 2 0 1 1 2.829 2.829L7.435 7.536zM12 8a4 4 0 1 1 0 8 4 4 0 0 1 0-8m-.5 1.042a3 3 0 0 0 0 5.917zm1 5.917a3 3 0 0 0 0-5.917z" />
+                                </svg>
+                                <span>2X</span>
+                            </button>
+                            <button id="third_button" class="mr-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-clock-fill" viewBox="0 0 16 16">
+                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z" />
+                                </svg>
+                                <span> DAILY</span>
+                            </button>
+                            <button id="third_button" class="mr-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-wrench-adjustable" viewBox="0 0 16 16">
+                                    <path d="M16 4.5a4.5 4.5 0 0 1-1.703 3.526L13 5l2.959-1.11q.04.3.041.61" />
+                                    <path d="M11.5 9c.653 0 1.273-.139 1.833-.39L12 5.5 11 3l3.826-1.53A4.5 4.5 0 0 0 7.29 6.092l-6.116 5.096a2.583 2.583 0 1 0 3.638 3.638L9.908 8.71A4.5 4.5 0 0 0 11.5 9m-1.292-4.361-.596.893.809-.27a.25.25 0 0 1 .287.377l-.596.893.809-.27.158.475-1.5.5a.25.25 0 0 1-.287-.376l.596-.893-.809.27a.25.25 0 0 1-.287-.377l.596-.893-.809.27-.158-.475 1.5-.5a.25.25 0 0 1 .287.376M3 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2" />
+                                </svg>
+                                <span class="text-sm">MEAL</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
 </div>
 
-<div class="bg-gray-300 py-48">
+<div class="bg-gray-300 py-10 px-80 p-10">
     <div class="container mx-auto px-4">
         <!-- Contenido del div -->
+        <p class="text-left left-44">hohoh</p>
+        <div>
+            <img src="/src/img/pills.jpg" alt="#">
+        </div>
     </div>
 </div>
 
