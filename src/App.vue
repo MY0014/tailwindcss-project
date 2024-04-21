@@ -47,10 +47,10 @@ export default {
     <div class="absolute inset-0 flex flex-col justify-center items-center text-white">
         <div class="container mb-20 px-44">
             <!-- Texto -->
-            <p class="text-sm mb-4 text-right px-72">Supporting Subheadline Goes here</p>
-            <h2 class="text-2xl font-bold mb-2 px-32 text-right">My Amazing Headline Goes Here</h2>
-            <div class="container px-52 py-1 text-right">
-                <p class="text-sm mb-4 text-right px-5 py-0">
+            <p class="text-sm mb-4 text-right px-80">Supporting Subheadline Goes here</p>
+            <h2 class="text-2xl font-bold mb-2 px-52 text-right">My Amazing Headline Goes Here</h2>
+            <div class="container px-44 py-1 text-right">
+                <p class="text-sm mb-4 text-right px-20 py-0">
                     I am baby retro chillwave letterpress smal batch beard, paleo ugh banjo hot chicken godard craft beer.
                     Biodiesel pork belly green juice VHS farm-to-table- taxidermy heirloom scenester.
                 </p>
@@ -102,7 +102,6 @@ export default {
 
 <div class="bg-gray-200 py-96">
     <div class="container mx-auto px-4">
-      <p class="relative left-10">hola</p>
       <div class="flex flex-wrap justify-center items-start px-1">
         <!-- Contenido del div -->
          <div class=" relative px-16 py-16 top-(-32) bottom-80 left-60 right-80 bg-gray-100 bg-opacity-100 rounded-lg">
@@ -115,22 +114,23 @@ export default {
 
 
 <div class="bg-orange-100 py-52">
-    <div class="container mx-auto px-4 flex flex-wrap">
+    <div class="container mx-auto px-48 flex flex-wrap">
         <!-- Contenido del div -->
          <!-- Columna izquierda -->
-         <div class="w-full md:w-1/2 bg-white p-4">
+         <div class=" relative w-full md:w-1/4 bg-white bg-opacity-40 p-40 py-10">
             <!-- Contenido de la columna izquierda -->
+            <img src="/src/img/img4.png" class="w-full py-0 px-0" alt="img">
         </div>
         
         <!-- Columna derecha -->
         <div class="w-full md:w-2/5 md:flex md:flex-col">
             <!-- Columna 1 de la derecha -->
-            <div class="bg-green-200 p-4 mb-4 md:mb-0">
+            <div class="bg-green-200 p-20 mb-4 md:mb-0">
                 <!-- Contenido de la primera columna derecha -->
             </div>
             
             <!-- Columna 2 de la derecha -->
-            <div class="bg-gray-200 p-4">
+            <div class="bg-gray-200 p-24">
                 <!-- Contenido de la segunda columna derecha -->
             </div>
         </div>
