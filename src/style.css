@@ -92,6 +92,16 @@ button:focus-visible {
   background-color:#14b8a6;
   border-color: #0d9488;
   border-radius: 10px;
-  height: 70px;
+  height: 60px;
   width: 80px;
+}
+
+#img_adjust{
+  height: 400px;
+  left: inherit;
+  align-items: center;
+}
+
+#text_format{
+  color: 0f766e;
 }

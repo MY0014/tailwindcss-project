@@ -112,50 +112,69 @@ export default {
     </div>
 </div>
 
-<div class="bg-orange-100 py-52">
-    <div class="container mx-auto px-48 flex flex-wrap">
-        <!-- Contenido del div -->
-        <!-- Columna izquierda -->
-        <div class=" relative w-full md:w-1/4 bg-white bg-opacity-40 p-40 py-10">
-            <!-- Contenido de la columna izquierda -->
-            <img src="/src/img/img4.png" class="w-full py-0 px-0" alt="img">
+<div class="bg-orange-100 py-20">
+    <div class="container mx-auto flex items-center">
+        <div class="mr-5">
+            <img id="img_adjust" src="/src/img/img4.png" alt="#" class="ml-44">
         </div>
-
-        <!-- Columna derecha -->
-        <div class="w-full md:w-2/5 md:flex md:flex-col">
-            <!-- Columna 1 de la derecha -->
-            <div class="bg-green-200 p-20 mb-4 md:mb-0">
-                <!-- Contenido de la primera columna derecha -->
+        <div>
+            <h1 class="text-4xl font-bold mr-44 ml-5 px-20 py-10 text-left">My Amazing Headline Goes Here</h1>
+            <div class="p-5 max-w-xl bg-white rounded-xl shadow-lg mr-5 ml-20 flex items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#0f766e" class="bi bi-person-badge inline-block mr-4" viewBox="0 0 16 16">
+                    <path d="M6.5 2a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1zM11 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0" />
+                    <path d="M4.5 0A2.5 2.5 0 0 0 2 2.5V14a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2.5A2.5 2.5 0 0 0 11.5 0zM3 2.5A1.5 1.5 0 0 1 4.5 1h7A1.5 1.5 0 0 1 13 2.5v10.795a4.2 4.2 0 0 0-.776-.492C11.392 12.387 10.063 12 8 12s-3.392.387-4.224.803a4.2 4.2 0 0 0-.776.492z" />
+                </svg><span id="text_format" class="font-semibold"> headline goes here</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#0f766e" class="bi bi-heart-pulse inline-block mr-4" viewBox="0 0 16 16">
+                    <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053.918 3.995.78 5.323 1.508 7H.43c-2.128-5.697 4.165-8.83 7.394-5.857q.09.083.176.171a3 3 0 0 1 .176-.17c3.23-2.974 9.522.159 7.394 5.856h-1.078c.728-1.677.59-3.005.108-3.947C13.486.878 10.4.28 8.717 2.01zM2.212 10h1.315C4.593 11.183 6.05 12.458 8 13.795c1.949-1.337 3.407-2.612 4.473-3.795h1.315c-1.265 1.566-3.14 3.25-5.788 5-2.648-1.75-4.523-3.434-5.788-5" />
+                    <path d="M10.464 3.314a.5.5 0 0 0-.945.049L7.921 8.956 6.464 5.314a.5.5 0 0 0-.88-.091L3.732 8H.5a.5.5 0 0 0 0 1H4a.5.5 0 0 0 .416-.223l1.473-2.209 1.647 4.118a.5.5 0 0 0 .945-.049l1.598-5.593 1.457 3.642A.5.5 0 0 0 12 9h3.5a.5.5 0 0 0 0-1h-3.162z" />
+                </svg><span id="text_format" class="font-semibold">headline goes here</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#0f766e" class="bi bi-clipboard2-pulse inline-block" viewBox="0 0 16 16">
+                    <path d="M9.5 0a.5.5 0 0 1 .5.5.5.5 0 0 0 .5.5.5.5 0 0 1 .5.5V2a.5.5 0 0 1-.5.5h-5A.5.5 0 0 1 5 2v-.5a.5.5 0 0 1 .5-.5.5.5 0 0 0 .5-.5.5.5 0 0 1 .5-.5z" />
+                    <path d="M3 2.5a.5.5 0 0 1 .5-.5H4a.5.5 0 0 0 0-1h-.5A1.5 1.5 0 0 0 2 2.5v12A1.5 1.5 0 0 0 3.5 16h9a1.5 1.5 0 0 0 1.5-1.5v-12A1.5 1.5 0 0 0 12.5 1H12a.5.5 0 0 0 0 1h.5a.5.5 0 0 1 .5.5v12a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5z" />
+                    <path d="M9.979 5.356a.5.5 0 0 0-.968.04L7.92 10.49l-.94-3.135a.5.5 0 0 0-.926-.08L4.69 10H4.5a.5.5 0 0 0 0 1H5a.5.5 0 0 0 .447-.276l.936-1.873 1.138 3.793a.5.5 0 0 0 .968-.04L9.58 7.51l.94 3.135A.5.5 0 0 0 11 11h.5a.5.5 0 0 0 0-1h-.128z" />
+                </svg><span id="text_format" class="font-semibold">headline goes here</span>
             </div>
 
-            <!-- Columna 2 de la derecha -->
-            <div class="bg-gray-200 p-24">
-                <!-- Contenido de la segunda columna derecha -->
+            <br>
+            <div class="text-center text-sm mr-32 ml-32">
+                <p>I am a baby retro chillwave letterpress small batch beard, paleo ugh banjo hot chicken godard craft beer</p>
             </div>
+            <br>
+            <div class="p-5 max-w-xl bg-white rounded-xl shadow-lg flex items-center ml-20">
+                <p class="mr-32">Regular Price <span class="line-through">$119</span> </p>
+                <h2 class="font-bold text-4xl mr-5">$59</h2>
+                <button class="bg-amber-500 border border-amber-60 text-white flex items-center gap-2 px-4 py-2 mr-5">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                        <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2" />
+                    </svg>
+                    <span>GET STARTED</span>
+
+                </button>
+            </div>
+
         </div>
     </div>
-</div>
 
+</div>
 <div class="bg-gray-50 py-20">
     <div class="container mx-auto px-52">
         <!-- Contenido del div -->
         <!--Primer sensible design -->
         <div class="p-10 max-w-4xl bg-gray-200 rounded-xl shadow-lg flex items-center justify-center space-x-4">
             <div class="md:shrink-0">
-                    <img class="h-48 w-full object-cover md:h-full md:w-48" src="/src/img/glass.jpg" alt="Modern building architecture">
-                </div>
-          <div class="max-w-md bg-white rounded-xl shadow-md overflow-hidden md:max-w-xl">
-            <div class="md:flex">
-                <div class="p-8">
-                    <div class="uppercase tracking-wide text-sm text-emerald-800 font-bold text-left">Ingredients</div>
-                    <p class="mt-2 text-slate-500 text-left text-sm">
-                        Looking to take your team away on a retreat to enjoy awesome food and take in some sunshine? We have a list of places to do just that.
-                    </p>
+                <img class="h-48 w-full object-cover md:h-full md:w-48" src="/src/img/glass.jpg" alt="Modern building architecture">
+            </div>
+            <div class="max-w-md bg-white rounded-xl shadow-md overflow-hidden md:max-w-xl">
+                <div class="md:flex">
+                    <div class="p-8">
+                        <div class="uppercase tracking-wide text-sm text-emerald-800 font-bold text-left">Ingredients</div>
+                        <p class="mt-2 text-slate-500 text-left text-sm">
+                            Looking to take your team away on a retreat to enjoy awesome food and take in some sunshine? We have a list of places to do just that.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
-        </div>
-        
         <br>
         <!--Segundo sensible design -->
         <div class="p-10 max-w-4xl bg-gray-200 rounded-xl shadow-lg flex items-center justify-center space-x-4">
@@ -179,13 +198,13 @@ export default {
                             </p>
                         </div>
                         <div class="flex justify-end">
-                            <button id="third_button" class="mr-2">
+                            <button id="third_button" class="mr-4">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-capsule-pill" viewBox="0 0 16 16">
                                     <path d="M11.02 5.364a3 3 0 0 0-4.242-4.243L1.121 6.778a3 3 0 1 0 4.243 4.243l5.657-5.657Zm-6.413-.657 2.878-2.879a2 2 0 1 1 2.829 2.829L7.435 7.536zM12 8a4 4 0 1 1 0 8 4 4 0 0 1 0-8m-.5 1.042a3 3 0 0 0 0 5.917zm1 5.917a3 3 0 0 0 0-5.917z" />
                                 </svg>
                                 <span>2X</span>
                             </button>
-                            <button id="third_button" class="mr-2">
+                            <button id="third_button" class="mr-4">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-clock-fill" viewBox="0 0 16 16">
                                     <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z" />
                                 </svg>
