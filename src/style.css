@@ -105,3 +105,7 @@ button:focus-visible {
 #text_format{
   color: 0f766e;
 }
+
+#border_img{
+  border-radius: 90%;
+}

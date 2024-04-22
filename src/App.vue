@@ -100,13 +100,62 @@ export default {
 
 </div>
 
-<div class="bg-gray-200 py-96">
+<div class="bg-gray-500 py-20">
     <div class="container mx-auto px-4">
-        <div class="flex flex-wrap justify-center items-start px-1">
+        <div class="flex flex-wrap justify-center items-start">
             <!-- Contenido del div -->
-            <div class=" relative px-16 py-16 top-(-32) bottom-80 left-60 right-80 bg-gray-100 bg-opacity-100 rounded-lg">
-                <img src="/src/img/img1.png" class="w-full py-0 px-0" alt="">
+            <div class="container px-4 md:px-0 md:w-1/2 py-0">
+                <h2 class="text-4xl font-bold mb-2 md:text-right">My Amazing Headline Goes Here</h2>
+                <p class="md:px-0">Luego de la destrucción de la República y el ascenso del Imperio,
+                    el maestro Jedi Obi-Wan Kenobi debe lidiar con las consecuencias de su
+                    mayor derrota: la pérdida de su amigo y aprendiz, Anakin Skywalker, a manos del lado oscuro.
+                    <br>
+                    Diez años después de la extinción de la Orden Jedi a través de la Orden 66 y el paso al Lado Oscuro de la Fuerza del aprendiz de Obi-Wan Kenobi, Anakin Skywalker, en el Lord Sith Darth Vader, Kenobi se esconde en el planeta Tatooine, cuidando al hijo de Anakin, Luke, cuando es llamado a una misión para rescatar a la hija de Anakin, Leia, después de que ella sea secuestrada por los Inquisidores, usuarios
+                    oscuros dedicados a ser cazadores de Jedi para el Imperio Galáctico en un complot para sacar a Kenobi.
+                    Esto conduce a una confrontación entre Kenobi y Vader.
+                </p>
             </div>
+            <div class="relative md:w-1/2 px-4 md:px-10 py-10 top-(-32) bottom-10 md:left-0 right-10 md:right-44 bg-gray-100 bg-opacity-100 rounded-lg">
+                <img src="/src/img/img1.png" class="w-96 py-0 px-0" alt="">
+            </div>
+            <!--fondo del frame con imagen-->
+            <div class="p-5 mr-5 ml-10 max-w-4xl bg-gray-200 rounded-xl shadow-lg flex items-center justify-center space-x-4">
+                <div class="top-10 p-10">
+                    <img id="border_img" class="h-40 w-40 object-cover md:h-full md:w-48 rounded-full" src="/src/img/vader.jpg" alt="Modern building architecture">
+                </div>
+                <div class="max-w-md bg-white rounded-xl shadow-md overflow-hidden md:flex md:max-w-xl">
+                    <div class="md:flex-shrink-0">
+                        <!-- <img id="border_img" class="h-64 w-full object-cover md:h-full md:w-48 rounded-full" src="/src/img/vader.jpg" alt="Modern building architecture"> -->
+                    </div>
+                    <div class="p-8">
+                        <div class="uppercase tracking-wide text-sm text-emerald-800 font-bold text-left">Testimonial Name</div>
+                        <p class="mt-2 text-slate-500 text-sm text-left">
+                            Looking to take your team away on a retreat to enjoy awesome food and take in some sunshine? We have a list of places to do just that.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <!--bottom div-->
+            <div class="p-10 max-w-2xl bg-gray-100 rounded-xl shadow-lg flex items-center justify-center space-x-4">
+            <div class="p-10 py-10 max-w-2xl bg-white rounded-xl shadow-lg flex items-center justify-center space-x-4">
+                <div class="shrink-0">
+                </div>
+                <div>
+                    <p class="text-orange-500 font-bold text-center">
+                        180 Days Money Back Guarantee
+                    </p>
+                    <div class="text-xl font-medium text-black text-left">
+                        <h4 class="text-2xl font-bold mb-2 px-10 ">My Amazing Headline Goes Here</h4>
+                    </div>
+                    <p class="text-slate-500">
+                        I am baby retro chillwave letterpress smal batch beard, paleo ugh banjo hot chicken godard craft beer.
+                        Biodiesel pork belly green juice VHS farm-to-table- taxidermy heirloom scenester.
+                    </p>
+                </div>
+            </div>
+        </div>
+
         </div>
 
     </div>
@@ -151,7 +200,7 @@ export default {
 
                 </button>
             </div>
-
+           
         </div>
     </div>
 
@@ -226,21 +275,27 @@ export default {
     </div>
 </div>
 
-<div class="bg-gray-300 py-10 px-80 p-10">
-    <div class="container mx-auto px-4">
+<div class="bg-gray-100 py-20 px-80 p-10">
+    <div class="container mx-auto px-4 flex items-center">
         <!-- Contenido del div -->
-        <p class="text-left left-44">hohoh</p>
+        <div class="flex flex-col">
+            <h4 class="text-2xl font-bold px-5">My Amazing Headline Goes Here</h4>
+            <p class="mb-2">Luego de la destrucción de la República y el ascenso del Imperio, el maestro Jedi Obi-Wan Kenobi
+                debe lidiar con las consecuencias de su mayor derrota: la pérdida de su amigo y aprendiz, Anakin Skywalker, a manos del lado oscuro.
+            </p>
+        </div>
         <div>
-            <img src="/src/img/pills.jpg" alt="#">
+            <img src="/src/img/bg.jpg" alt="#" class="ml-56 w-64 h-64">
         </div>
     </div>
+
 </div>
 
-<div class="bg-gray-50 py-10">
+<div class="bg-white-50 py-10">
     <div class="container mx-auto px-64">
         <!-- Contenido del div -->
         <div class="p-10 max-w-2xl bg-gray-100 rounded-xl shadow-lg flex items-center justify-center space-x-4">
-            <div class="p-10 max-w-4xl bg-white rounded-xl shadow-lg flex items-center justify-center space-x-4">
+            <div class="p-10 py-10 max-w-2xl bg-white rounded-xl shadow-lg flex items-center justify-center space-x-4">
                 <div class="shrink-0">
                 </div>
                 <div>
