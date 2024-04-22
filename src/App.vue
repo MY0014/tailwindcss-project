@@ -100,7 +100,7 @@ export default {
 
 </div>
 
-<div class="bg-gray-500 py-20">
+<div class="bg-white py-20">
     <div class="container mx-auto px-4">
         <div class="flex flex-wrap justify-center items-start">
             <!-- Contenido del div -->
@@ -136,25 +136,44 @@ export default {
                 </div>
             </div>
             <br>
+
             <!--bottom div-->
-            <div class="p-10 max-w-2xl bg-gray-100 rounded-xl shadow-lg flex items-center justify-center space-x-4">
-            <div class="p-10 py-10 max-w-2xl bg-white rounded-xl shadow-lg flex items-center justify-center space-x-4">
-                <div class="shrink-0">
-                </div>
-                <div>
-                    <p class="text-orange-500 font-bold text-center">
-                        180 Days Money Back Guarantee
-                    </p>
-                    <div class="text-xl font-medium text-black text-left">
-                        <h4 class="text-2xl font-bold mb-2 px-10 ">My Amazing Headline Goes Here</h4>
+            <div class="p-5 mr-5 ml-10 max-w-6xl bg-gray-200 rounded-xl shadow-lg px-36">
+                <div class="p-5 py-10 max-w-2xl bg-white rounded-xl shadow-lg flex items-center justify-center space-x-4">
+                    <div class="shrink-0">
                     </div>
-                    <p class="text-slate-500">
-                        I am baby retro chillwave letterpress smal batch beard, paleo ugh banjo hot chicken godard craft beer.
-                        Biodiesel pork belly green juice VHS farm-to-table- taxidermy heirloom scenester.
-                    </p>
+                    <div>
+                        <div class="text-xl font-medium text-black text-left">
+                            <h4 class="text-2xl font-bold mb-5 px-10 ">Headline Goes Here2</h4>
+                        </div>
+                        <p class="text-slate-500">
+                            I am baby retro chillwave letterpress smal batch beard, paleo ugh banjo hot chicken godard craft beer.
+                            Biodiesel pork belly green juice VHS farm-to-table- taxidermy heirloom scenester.
+                        </p>
+                    </div>
+                    <div class="top-10 p-10">
+                        <div class="image_container">
+                            <img class="h-60 w-60 object-cover md:w-50 md:h-32 " src="/src/img/img7.jpg" alt="Modern building architecture">
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
+
+            <div class="p-5 mr-5 ml-10 max-w-6xl bg-gray-200 rounded-xl shadow-lg px-36">
+                <div class="p-10 py-10 max-w-2xl bg-white rounded-xl shadow-lg flex items-center justify-center space-x-4">
+                    <div class="shrink-0">
+                    </div>
+                    <div>
+                        <div class="text-xl font-medium text-black text-left">
+                            <h4 class="text-2xl font-bold mb-2 px-10 ">Headline Goes Here</h4>
+                        </div>
+                        <p class="text-slate-500">
+                            I am baby retro chillwave letterpress smal batch beard, paleo ugh banjo hot chicken godard craft beer.
+                            Biodiesel pork belly green juice VHS farm-to-table- taxidermy heirloom scenester.
+                        </p>
+                    </div>
+                </div>
+            </div>
 
         </div>
 
@@ -183,7 +202,6 @@ export default {
                     <path d="M9.979 5.356a.5.5 0 0 0-.968.04L7.92 10.49l-.94-3.135a.5.5 0 0 0-.926-.08L4.69 10H4.5a.5.5 0 0 0 0 1H5a.5.5 0 0 0 .447-.276l.936-1.873 1.138 3.793a.5.5 0 0 0 .968-.04L9.58 7.51l.94 3.135A.5.5 0 0 0 11 11h.5a.5.5 0 0 0 0-1h-.128z" />
                 </svg><span id="text_format" class="font-semibold">headline goes here</span>
             </div>
-
             <br>
             <div class="text-center text-sm mr-32 ml-32">
                 <p>I am a baby retro chillwave letterpress small batch beard, paleo ugh banjo hot chicken godard craft beer</p>
@@ -200,7 +218,7 @@ export default {
 
                 </button>
             </div>
-           
+
         </div>
     </div>
 
